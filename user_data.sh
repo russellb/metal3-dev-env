@@ -10,6 +10,8 @@ if [ -z "${SECRET_NAME_PREFIX}" ] || [ -z "${SSH_PUB_KEY}" ] ; then
     echo
     echo 'Expected env vars:'
     echo '    SSH_PUB_KEY - path to ssh public key'
+    echo '    EXTRA_CLOUD_CONFIG - (optional) filename with additional contents'
+    echo '                         to place at the end of the cloud-config user data.'
     exit 1
 fi
 
@@ -50,6 +52,9 @@ user_data_secret() {
     cat ${SSH_PUB_KEY} >> .userdata.tmp
     printf "\n" >> .userdata.tmp
     network_config_files >> .userdata.tmp
+    if [ -n "${EXTRA_CLOUD_CONFIG}" ] ; then
+        cat ${EXTRA_CLOUD_CONFIG} >> .userdata.tmp
+    fi
 cat << EOF
 apiVersion: v1
 data:
