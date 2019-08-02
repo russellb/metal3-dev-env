@@ -65,11 +65,8 @@ sudo yum -y install \
   libvirt-devel \
   libvirt-daemon-kvm \
   nodejs \
-  python-ironicclient \
-  python-ironic-inspector-client \
   python-lxml \
   python-netaddr \
-  python-openstackclient \
   python-virtualbmc \
   qemu-kvm \
   redhat-lsb-core \

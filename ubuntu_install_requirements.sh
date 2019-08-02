@@ -92,8 +92,6 @@ sudo apt -y install \
   nodejs \
   qemu-kvm \
   libvirt-bin libvirt-clients libvirt-dev \
-  python-ironicclient \
-  python-ironic-inspector-client \
   golang-go \
   python-lxml \
   unzip \
@@ -125,8 +123,6 @@ sudo pip install \
   lolcat \
   yq \
   virtualbmc \
-  python-ironicclient \
-  python-ironic-inspector-client \
   lxml \
   netaddr \
   requests \

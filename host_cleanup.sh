@@ -4,19 +4,6 @@ set -x
 source lib/logging.sh
 source lib/common.sh
 
-# Kill and remove the running ironic containers
-for name in ironic ironic-inspector dnsmasq httpd mariadb; do
-    sudo ${CONTAINER_RUNTIME} ps | grep -w "$name$" && sudo ${CONTAINER_RUNTIME} kill $name
-    sudo ${CONTAINER_RUNTIME} ps --all | grep -w "$name$" && sudo ${CONTAINER_RUNTIME} rm $name -f
-done
-
-# Remove existing pod
-if [[ "${CONTAINER_RUNTIME}" == "podman" ]]; then
-  if  sudo ${CONTAINER_RUNTIME} pod exists ironic-pod ; then
-      sudo ${CONTAINER_RUNTIME} pod rm ironic-pod -f
-  fi
-fi
-
 ANSIBLE_FORCE_COLOR=true ansible-playbook \
     -e "working_dir=$WORKING_DIR" \
     -e "num_masters=$NUM_MASTERS" \

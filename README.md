@@ -347,24 +347,4 @@ make run
 
 ## Accessing the Ironic API
 
-Sometimes you may want to look directly at Ironic to debug something.  You can
-do this with the `openstack` command.
-
-First you must set these environment variables:
-
-```sh
-export OS_TOKEN=fake-token
-export OS_URL=http://localhost:6385/
-```
-
-Example:
-
-```sh
-$ openstack baremetal node list
-+--------------------------------------+----------+---------------+-------------+--------------------+-------------+
-| UUID                                 | Name     | Instance UUID | Power State | Provisioning State | Maintenance |
-+--------------------------------------+----------+---------------+-------------+--------------------+-------------+
-| 882cf206-d688-43fa-bf4c-3282fcb00b12 | master-0 | None          | None        | enroll             | False       |
-| ac257479-d6c6-47c1-a649-64a88e6ff312 | worker-0 | None          | None        | enroll             | False       |
-+--------------------------------------+---------------+---------------+-------------+--------------------+-------------+
-```
+TODO - rewrite after moving Ironic into the cluster
