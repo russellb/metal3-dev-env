@@ -1,0 +1,1254 @@
+{
+  "version": 1,
+  "width": 112,
+  "height": 29,
+  "duration": 228.182797,
+  "command": null,
+  "title": "BareMetalHost inspection - KubeCon, Nov 2019",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.307318,
+      "\u001b]0;rbryant@metal3:~/metal3-dev-env\u0007"
+    ],
+    [
+      0.000739,
+      "\u001b[?1034h"
+    ],
+    [
+      2.3e-05,
+      "\u001b[0;38;5;220;48;5;166m  metal3 \u001b[0;38;5;166;48;5;31;22m \u001b[0;38;5;231;48;5;31;1mrbryant \u001b[0;38;5;31;48;5;236;22m \u001b[0;38;5;250;48;5;236m master \u001b[0;38;5;236;48;5;240;22m \u001b[0;38;5;250;48;5;240m~ \u001b[0;38;5;245;48;5;240;22m \u001b[0;38;5;252;48;5;240;1mmetal3-dev-env \u001b[0;38;5;240;49;22m \u001b[0m"
+    ],
+    [
+      0.532258,
+      "v"
+    ],
+    [
+      0.049253,
+      "i"
+    ],
+    [
+      0.038669,
+      "m"
+    ],
+    [
+      0.111959,
+      " "
+    ],
+    [
+      0.112124,
+      "b"
+    ],
+    [
+      0.210961,
+      "m"
+    ],
+    [
+      0.10582,
+      "hosts_crs.yaml "
+    ],
+    [
+      0.49462,
+      "\r\n"
+    ],
+    [
+      0.205401,
+      "\u001b[?1049h\u001b[?1h\u001b=\u001b[2;1H▽\u001b[6n\u001b[2;1H  \u001b[1;1H"
+    ],
+    [
+      0.000776,
+      "\u001b[1;29r\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[27m\u001b[m\u001b[H\u001b[2J\u001b[?25l\u001b[29;1H\"bmhosts_crs.yaml\""
+    ],
+    [
+      6.4e-05,
+      " 43L, 713C"
+    ],
+    [
+      0.13197,
+      "\u001b[>c"
+    ],
+    [
+      0.011889,
+      "\u001b[1;1H\u001b[93m 17 \u001b[m\u001b[1m\u001b[96mdata\u001b[m\u001b[38;5;224m\u001b[48;5;242m:\u001b[m\r\n\u001b[93m 18 \u001b[m  \u001b[1m\u001b[96mus\u001b[m\u001b[1m\u001b[96m\u001b[48;5;242me\u001b[m\u001b[1m\u001b[96mrname\u001b[m\u001b[38;5;224m:\u001b[m YWRtaW4=\r\n\u001b[93m 19 \u001b[m  \u001b[1m\u001b[96mpa\u001b[m\u001b[1m\u001b[96m\u001b[48;5;242ms\u001b[m\u001b[1m\u001b[96msword\u001b[m\u001b[38;5;224m:\u001b[m cGFzc3dvcmQ=\r\n\u001b[93m 20 \u001b[m    \u001b[48;5;242m \u001b[m\r\n\u001b[93m 21 \u001b[m\u001b[38;5;81m---\u001b[m \u001b[48;5;242m \u001b[m\r\n\u001b[93m 22 \u001b[m\u001b[1m\u001b[96mapiV\u001b[m\u001b[1m\u001b[96m\u001b[48;5;242me\u001b[m\u001b[1m\u001b[96mrsion\u001b[m\u001b[38;5;224m:\u001b[m metal3.io/v1alpha1\r\n\u001b[93m 23 \u001b[m\u001b[1m\u001b[96mkind\u001b[m\u001b[38;5;224m\u001b[48;5;242m:\u001b[m BareMetalHost\r\n\u001b[93m 24 \u001b[m\u001b[1m\u001b[96mmeta\u001b[m\u001b[1m\u001b[96m\u001b[48;5;242md\u001b[m\u001b[1m\u001b[96mata\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m 25 \u001b[m  \u001b[1m\u001b[96mna\u001b[m\u001b[1m\u001b[96m\u001b[48;5;242mm\u001b[m\u001b[1m\u001b[96me\u001b[m\u001b[38;5;224m:\u001b[m host-1\r\n\u001b[93m 26 \u001b[m\u001b[1m\u001b[96mspec\u001b[m\u001b[38;5;224m\u001b[48;5;242m:\u001b[m\r\n\u001b[93m 27 \u001b[m  \u001b[1m\u001b[96mon\u001b[m\u001b[1m\u001b[96m\u001b[48;5;242ml\u001b[m\u001b[1m\u001b[96mine\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95mtrue\u001b[m\r\n\u001b[93m 28 \u001b[m  \u001b[1m\u001b[96mbo\u001b[m\u001b[1m\u001b[96m\u001b[48;5;242mo\u001b[m\u001b[1m\u001b[96mtMACAddress\u001b[m\u001b[38;5;224m:\u001b[m 00:7f:d5:44:8c:52\r\n\u001b[93m 29 \u001b[m  \u001b[1m\u001b[96mbm\u001b[m\u001b[1m\u001b[96m\u001b[48;5;242mc\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m 30 "
+    ],
+    [
+      2.7e-05,
+      "\u001b[m    \u001b[1m\u001b[96m\u001b[48;5;242ma\u001b[m\u001b[1m\u001b[96mddress\u001b[m\u001b[38;5;224m:\u001b[m ipmi://192.168.111.1:6230\r\n\u001b[93m 31 \u001b[m    \u001b[1m\u001b[96m\u001b[48;5;242mc\u001b[m\u001b[1m\u001b[96mredentialsName\u001b[m\u001b[38;5;224m:\u001b[m host-1-bmc-secret\r\n\u001b[93m 32 \u001b[m    \u001b[48;5;242m \u001b[m\r\n\u001b[93m 33 \u001b[m\u001b[38;5;81m---\u001b[m \u001b[48;5;242m \u001b[m\r\n\u001b[93m 34 \u001b[m\u001b[1m\u001b[96mapiV\u001b[m\u001b[1m\u001b[96m\u001b[48;5;242me\u001b[m\u001b[1m\u001b[96mrsion\u001b[m\u001b[38;5;224m:\u001b[m metal3.io/v1alpha1\r\n\u001b[93m 35 \u001b[m\u001b[1m\u001b[96mkind\u001b[m\u001b[38;5;224m\u001b[48;5;242m:\u001b[m BareMetalHost\r\n\u001b[93m 36 \u001b[m\u001b[1m\u001b[96mmeta\u001b[m\u001b[1m\u001b[96m\u001b[48;5;242md\u001b[m\u001b[1m\u001b[96mata\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m 37 \u001b[m  \u001b[1m\u001b[96mna\u001b[m\u001b[1m\u001b[96m\u001b[48;5;242mm\u001b[m\u001b[1m\u001b[96me\u001b[m\u001b[38;5;224m:\u001b[m host-2\r\n\u001b[93m 38 \u001b[m\u001b[1m\u001b[96mspec\u001b[m\u001b[38;5;224m\u001b[48;5;242m:\u001b[m\r\n\u001b[93m 39 \u001b[m  \u001b[1m\u001b[96mon\u001b[m\u001b[1m\u001b[96m\u001b[48;5;242ml\u001b[m\u001b[1m\u001b[96mine\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95mtrue\u001b[m\r\n\u001b[93m 40 \u001b[m  \u001b[1m\u001b[96mbo\u001b[m\u001b[1m\u001b[96m\u001b[48;5;242mo\u001b[m\u001b[1m\u001b[96mtMACAddress\u001b[m\u001b[38;5;224m:\u001b[m 00:7f:d5:44:8c:56\r\n\u001b[93m 41 \u001b[m  \u001b[1m\u001b[96mbm\u001b[m\u001b[1m\u001b[96m\u001b[48;5;242mc\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m 42 \u001b[m    \u001b[1m\u001b[96m\u001b[48;5;242ma\u001b[m\u001b[1m\u001b[96mddress"
+    ],
+    [
+      0.002045,
+      "\u001b[m\u001b[38;5;224m:\u001b[m ipmi://192.168.111.1:6231\r\n\u001b[93m 43 \u001b[m\u001b[4m    \u001b[m\u001b[1m\u001b[4m\u001b[96mcredentialsName\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m host-2-bmc-secret                                                                     "
+    ],
+    [
+      0.023708,
+      "\u001b[m\u001b[28;1H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m NORMAL \u001b[m\u001b[38;5;245m\u001b[48;5;241m›\u001b[m\u001b[38;5;254m\u001b[48;5;241m +0 ~0 -0 ᚠ master \u001b[m\u001b[38;5;241m\u001b[48;5;235m›\u001b[m\u001b[38;5;240m\u001b[48;5;235m \u001b[m\u001b[1m bmhosts_crs.yaml  \u001b[m\u001b[38;5;240m\u001b[48;5;235m                \u001b[m\u001b[38;5;235m\u001b[48;5;235m‹\u001b[m\u001b[38;5;240m\u001b[48;5;235m yaml \u001b[m\u001b[38;5;241m\u001b[48;5;235m‹\u001b[m\u001b[38;5;254m\u001b[48;5;241m utf-8[unix] \u001b[m\u001b[38;5;245m\u001b[48;5;241m‹\u001b[m\u001b[38;5;230m\u001b[48;5;245m 100% \u001b[m\u001b[1m\u001b[38;5;230m\u001b[48;5;245m☰   43/43 ㏑\u001b[m\u001b[38;5;230m\u001b[48;5;245m :  5 \u001b[m\u001b[28;32H\u001b[1m1:bmhosts_crs.yaml  \u001b[27;9H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.044013,
+      "\u001bP+q436f\u001b\\\u001bP+q6b75\u001b\\\u001bP+q6b64\u001b\\\u001bP+q6b72\u001b\\\u001bP+q6b6c\u001b\\\u001bP+q2332\u001b\\\u001bP+q2334\u001b\\\u001bP+q2569\u001b\\\u001bP+q2a37\u001b\\\u001bP+q6b31\u001b\\"
+    ],
+    [
+      30.304527,
+      "\u001b[?25l\u001b[m\u001b[29;101H:\u001b[27;9H\u001b[29;1H\u001b[K\u001b[29;1H:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.259886,
+      "q\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.137458,
+      "\r"
+    ],
+    [
+      0.004415,
+      "\u001b[?25l\u001b[29;1H\u001b[K\u001b[29;1H\u001b[?1l\u001b>\u001b[?12l\u001b[?25h\u001b[?1049l"
+    ],
+    [
+      0.044816,
+      "\u001b]0;rbryant@metal3:~/metal3-dev-env\u0007\u001b[0;38;5;220;48;5;166m  metal3 \u001b[0;38;5;166;48;5;31;22m \u001b[0;38;5;231;48;5;31;1mrbryant \u001b[0;38;5;31;48;5;236;22m \u001b[0;38;5;250;48;5;236m master \u001b[0;38;5;236;48;5;240;22m \u001b[0;38;5;250;48;5;240m~ \u001b[0;38;5;245;48;5;240;22m \u001b[0;38;5;252;48;5;240;1mmetal3-dev-env \u001b[0;38;5;240;49;22m \u001b[0m"
+    ],
+    [
+      3.233935,
+      "kubectl apply -f bmhosts_crs.yaml\r\n"
+    ],
+    [
+      0.186422,
+      "secret/host-1-bmc-secret created\r\n"
+    ],
+    [
+      0.005248,
+      "secret/host-2-bmc-secret created\r\n"
+    ],
+    [
+      0.007738,
+      "baremetalhost.metal3.io/host-1 created"
+    ],
+    [
+      5.1e-05,
+      "\r\n"
+    ],
+    [
+      0.010458,
+      "baremetalhost.metal3.io/host-2 created\r\n"
+    ],
+    [
+      0.015453,
+      "\u001b]0;rbryant@metal3:~/metal3-dev-env\u0007"
+    ],
+    [
+      0.000796,
+      "\u001b[0;38;5;220;48;5;166m  metal3 \u001b[0;38;5;166;48;5;31;22m \u001b[0;38;5;231;48;5;31;1mrbryant \u001b[0;38;5;31;48;5;236;22m \u001b[0;38;5;250;48;5;236m master \u001b[0;38;5;236;48;5;240;22m \u001b[0;38;5;250;48;5;240m~ \u001b[0;38;5;245;48;5;240;22m \u001b[0;38;5;252;48;5;240;1mmetal3-dev-env \u001b[0;38;5;240;49;22m \u001b[0m"
+    ],
+    [
+      7.542032,
+      "watch kubectl get bmh\r\n"
+    ],
+    [
+      0.55499,
+      "\u001b[H\u001b[2JEvery 2.0s: kubectl get bmh\u001b[1;89HWed Nov 13 16:52:30 2019\u001b[3;1HNAME     STATUS   PROVISIONING STATUS   CONSUMER   BMC\u001b[3;80HHARDWARE PROFILE   ONLINE   ERROR\u001b[4;1Hhost-1   OK\t  inspecting\u001b[4;52Hipmi://192.168.111.1:6230\u001b[4;99Htrue\r\u001b[5dhost-2   OK\t  inspecting\u001b[5;52Hipmi://192.168.111.1:6231\u001b[5;99Htrue\u001b[29;112H"
+    ],
+    [
+      2.073177,
+      "\u001b[1;107H2\u001b[29;112H"
+    ],
+    [
+      2.078451,
+      "\u001b[1;107H4\u001b[29;112H"
+    ],
+    [
+      2.057183,
+      "\u001b[1;107H6\u001b[29;112H"
+    ],
+    [
+      2.062385,
+      "\u001b[1;107H8\u001b[29;112H"
+    ],
+    [
+      2.071441,
+      "\u001b[1;106H40\u001b[29;112H"
+    ],
+    [
+      2.061043,
+      "\u001b[1;107H5\u001b[5;19Hready     \u001b[5;80Hunknown\u001b[29;112H"
+    ],
+    [
+      2.088066,
+      "\u001b[1;107H7\u001b[4;19Hready     \u001b[4;80Hunknown\u001b[29;112H"
+    ],
+    [
+      2.057904,
+      "\u001b[1;107H9\u001b[29;112H"
+    ],
+    [
+      2.071805,
+      "\u001b[1;106H41\u001b[29;112H"
+    ],
+    [
+      2.083013,
+      "\u001b[1;107H3\u001b[29;112H"
+    ],
+    [
+      2.076806,
+      "\u001b[1;107H5\u001b[29;112H"
+    ],
+    [
+      1.035426,
+      "\u001b[29;1H\u001b[?1049l\r\u001b[?1l\u001b>"
+    ],
+    [
+      0.03224,
+      "\u001b]0;rbryant@metal3:~/metal3-dev-env\u0007"
+    ],
+    [
+      0.001962,
+      "\u001b[0;38;5;220;48;5;166m  metal3 \u001b[0;38;5;166;48;5;31;22m \u001b[0;38;5;231;48;5;31;1mrbryant \u001b[0;38;5;31;48;5;236;22m \u001b[0;38;5;250;48;5;236m master \u001b[0;38;5;236;48;5;240;22m \u001b[0;38;5;250;48;5;240m~ \u001b[0;38;5;245;48;5;240;22m \u001b[0;38;5;252;48;5;240;1mmetal3-dev-env \u001b[0;38;5;240;49;22m \u001b[0m"
+    ],
+    [
+      4.900537,
+      "kubectl get bmh host-1 -o yaml | viewyaml\r\n"
+    ],
+    [
+      0.21572,
+      "Vim: Reading from stdin...\r\n"
+    ],
+    [
+      1.8e-05,
+      "\u001b[?1049h\u001b[?1h\u001b="
+    ],
+    [
+      8e-06,
+      "\u001b[27m\u001b[m\u001b[H\u001b[2J\u001b[?25l\u001b[29;1H\"-stdin-\" 164L, 3386C"
+    ],
+    [
+      0.045551,
+      "\u001b[2;1H▽\u001b[6n\u001b[2;1H  \u001b[1;1H"
+    ],
+    [
+      0.002789,
+      "\u001b[1;29r\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[27m\u001b[m\u001b[H\u001b[2J\u001b[>c"
+    ],
+    [
+      0.026925,
+      "\u001b[1;1H\u001b[93m  1 \u001b[m\u001b[1m\u001b[4m\u001b[96mapiVersion\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m metal3.io/v1alpha1                                                                              \u001b[m\u001b[2;1H\u001b[93m  2 \u001b[m\u001b[1m\u001b[96mkind\u001b[m\u001b[38;5;224m:\u001b[m BareMetalHost\r\n\u001b[93m  3 \u001b[m\u001b[1m\u001b[96mmetadata\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m  4 \u001b[m  \u001b[1m\u001b[96mannotations\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m  5 \u001b[m    \u001b[1m\u001b[96mkubectl.kubernetes.io/last-applied-configuration\u001b[m\u001b[38;5;224m:\u001b[m |\r\n\u001b[93m  6 \u001b[m      \u001b[38;5;224m{\u001b[m\"apiVersion\"\u001b[38;5;224m:\u001b[m\"metal3.io/v1alpha1\",\"kind\"\u001b[38;5;224m:\u001b[m\"BareMetalHost\",\"metadata\"\u001b[38;5;224m:{\u001b[m\"annotations\"\u001b[38;5;224m:{}\u001b[m,\"name\"\u001b[38;5;224m:\u001b[m\"host-1\"\"\u001b[7;1H\u001b[93m    \u001b[m,\"namespace\"\u001b[38;5;224m:\u001b[m\"metal3\"\u001b[38;5;224m}\u001b[m,\"spec\"\u001b[38;5;224m:{\u001b[m\"bmc\"\u001b[38;5;224m:{\u001b[m\"address\"\u001b[38;5;224m:\u001b[m\"ipmi://192.168.111.1:6230\",\"credentialsName\"\u001b[38;5;224m:\u001b[m\"host-1-bmc-see\u001b[8;1H\u001b[93m    \u001b[mcret\"\u001b[38;5;224m}\u001b[m,\"bootMACAddress\"\u001b[38;5;224m:\u001b[m\"00:7f:d5:44:8c:52\",\"online\"\u001b[38;5;224m:\u001b[m\u001b[95mtrue\u001b[m\u001b[38;5;224m}}\u001b[m\r\n\u001b[93m  7 \u001b[m  \u001b[1m\u001b[96mcreationTime"
+    ],
+    [
+      1.9e-05,
+      "stamp\u001b[m\u001b[38;5;224m:\u001b[m \"2019-11-13T21:52:00Z\"\r\n\u001b[93m  8 \u001b[m  \u001b[1m\u001b[96mfinalizers\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m  9 \u001b[m  \u001b[93m- \u001b[mbaremetalhost.metal3.io\r\n\u001b[93m 10 \u001b[m  \u001b[1m\u001b[96mgeneration\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m1\u001b[m\r\n\u001b[93m 11 \u001b[m  \u001b[1m\u001b[96mname\u001b[m\u001b[38;5;224m:\u001b[m host-1\r\n\u001b[93m 12 \u001b[m  \u001b[1m\u001b[96mnamespace\u001b[m\u001b[38;5;224m:\u001b[m metal3\r\n\u001b[93m 13 \u001b[m  \u001b[1m\u001b[96mresourceVersion\u001b[m\u001b[38;5;224m:\u001b[m \"2977\"\r\n\u001b[93m 14 \u001b[m  \u001b[1m\u001b[96mselfLink\u001b[m\u001b[38;5;224m:\u001b[m /apis/metal3.io/v1alpha1/namespaces/metal3/baremetalhosts/host-1\r\n\u001b[93m 15 \u001b[m  \u001b[1m\u001b[96muid\u001b[m\u001b[38;5;224m:\u001b[m 5b6b2b6a-e94b-4d37-8bfd-21cf64495aa1\r\n\u001b[93m 16 \u001b[m\u001b[1m\u001b[96mspec\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m 17 \u001b[m  \u001b[1m\u001b[96mbmc\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m 18 \u001b[m    \u001b[1m\u001b[96maddress\u001b[m\u001b[38;5;224m:\u001b[m ipmi://192.168.111.1:6230\r\n\u001b[93m 19 \u001b[m    \u001b[1m\u001b[96mcredentialsName\u001b[m\u001b[38;5;224m:\u001b[m host-1-bmc-secret\r\n\u001b[93m 20 \u001b[m  \u001b[1m\u001b[96mbootMACAddress\u001b[m\u001b[38;5;224m:\u001b[m 00:7f:d5:44:8c:52\r\n\u001b[93m 21 \u001b[m  \u001b[1m\u001b[96monline\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95mtrue\u001b[m\r\n\u001b[93m 22 \u001b[m\u001b[1m\u001b[96mstatus\u001b[m"
+    ],
+    [
+      0.009155,
+      "\u001b[38;5;224m:\u001b[m\r\n\u001b[93m 23 \u001b[m  \u001b[1m\u001b[96merrorMessage\u001b[m\u001b[38;5;224m:\u001b[m \"\"\r\n\u001b[93m 24 \u001b[m  \u001b[1m\u001b[96mgoodCredentials\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m 25 \u001b[m    \u001b[1m\u001b[96mcredentials\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[1m\u001b[38;5;230m\u001b[48;5;245m NORMAL \u001b[m\u001b[38;5;245m\u001b[48;5;241m›\u001b[m\u001b[38;5;254m\u001b[48;5;241m ᚠ master \u001b[m\u001b[38;5;241m\u001b[48;5;235m›\u001b[m\u001b[38;5;240m\u001b[48;5;235m \u001b[m\u001b[1m   \u001b[m\u001b[38;5;240m\u001b[48;5;235m                                               \u001b[m\u001b[38;5;235m\u001b[48;5;235m‹\u001b[m\u001b[38;5;241m\u001b[48;5;235m‹\u001b[m\u001b[38;5;254m\u001b[48;5;241m utf-8[unix] \u001b[m\u001b[38;5;245m\u001b[48;5;241m‹\u001b[m\u001b[38;5;230m\u001b[48;5;245m   0% \u001b[m\u001b[1m\u001b[38;5;230m\u001b[48;5;245m☰    1/164 ㏑\u001b[m\u001b[38;5;230m\u001b[48;5;245m :  1 \u001b[m\u001b[29;1H\"-stdin-\" 164L, 3386C"
+    ],
+    [
+      0.00133,
+      "\u001b[28;23H\u001b[1m1:  \u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.001583,
+      "\u001b[?25l\u001b[m\u001b[29;1H1: \u001b[29;4H\u001b[K"
+    ],
+    [
+      0.08643,
+      "\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.002393,
+      "\u001bP+q436f\u001b\\\u001bP+q6b75\u001b\\\u001bP+q6b64\u001b\\\u001bP+q6b72\u001b\\\u001bP+q6b6c\u001b\\\u001bP+q2332\u001b\\\u001bP+q2334\u001b\\\u001bP+q2569\u001b\\\u001bP+q2a37\u001b\\\u001bP+q6b31\u001b\\"
+    ],
+    [
+      3.890884,
+      "\u001b[?25l\u001b[29;102Hgj\u001b[1;5H"
+    ],
+    [
+      0.083129,
+      "\u001b[29;102H  \u001b[2;5H\u001b[1;5H\u001b[1m\u001b[96mapiVersion\u001b[m\u001b[38;5;224m:\u001b[m metal3.io/v1alpha1\u001b[1;35H\u001b[K\u001b[2;5H\u001b[1m\u001b[4m\u001b[96mkind\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m BareMetalHost                                                                                         \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m1\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m2/\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.415919,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[2;5H"
+    ],
+    [
+      0.101716,
+      "\u001b[29;102H  \u001b[3;5H\u001b[2;5H\u001b[1m\u001b[96mkind\u001b[m\u001b[38;5;224m:\u001b[m BareMetalHost\u001b[2;24H\u001b[K\u001b[3;5H\u001b[1m\u001b[4m\u001b[96mmetadata\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                                   \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m3/\u001b[3;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.168688,
+      "\u001b[?25l\u001b[m\u001b[1m\u001b[96mmetadata\u001b[m\u001b[38;5;224m:\u001b[m\u001b[3;14H\u001b[K\u001b[4;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mannotations\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                              \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m2\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m4/\u001b[4;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m  \u001b[1m\u001b[96mannotations\u001b[m\u001b[38;5;224m:\u001b[m\u001b[4;19H\u001b[K\u001b[5;5H\u001b[4m    \u001b[m\u001b[1m\u001b[4m\u001b[96mkubectl.kubernetes.io/last-applied-configuration\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m |                                                     \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m3\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m5/\u001b[5;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.24432,
+      "\u001b[?25l\u001b[m    \u001b[1m\u001b[96mkubectl.kubernetes.io/last-applied-configuration\u001b[m\u001b[38;5;224m:\u001b[m |\u001b[5;60H\u001b[K\u001b[6;5H\u001b[4m      \u001b[m\u001b[4m\u001b[38;5;224m{\u001b[m\u001b[4m\"apiVersion\"\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m\"metal3.io/v1alpha1\",\"kind\"\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m\"BareMetalHost\",\"metadata\"\u001b[m\u001b[4m\u001b[38;5;224m:{\u001b[m\u001b[4m\"annotations\"\u001b[m\u001b[4m\u001b[38;5;224m:{}\u001b[m\u001b[4m,\"name\"\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m\"host-1\"\"\u001b[m\u001b[7;1H\u001b[93m \u001b[m\u001b[3C\u001b[4m,\"namespace\"\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m\"metal3\"\u001b[m\u001b[4m\u001b[38;5;224m}\u001b[m\u001b[4m,\"spec\"\u001b[m\u001b[4m\u001b[38;5;224m:{\u001b[m\u001b[4m\"bmc\"\u001b[m\u001b[4m\u001b[38;5;224m:{\u001b[m\u001b[4m\"address\"\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m\"ipmi://192.168.111.1:6230\",\"credentialsName\"\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m\"host-1-bmc-see\u001b[m\u001b[8;1H\u001b[93m \u001b[m\u001b[3C\u001b[4mcret\"\u001b[m\u001b[4m\u001b[38;5;224m}\u001b[m\u001b[4m,\"bootMACAddress\"\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m\"00:7f:d5:44:8c:52\",\"online\"\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m\u001b[95mtrue\u001b[m\u001b[4m\u001b[38;5;224m}}\u001b[m\u001b[4m                                                 \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m6/\u001b[6;5H\u001b[?12l\u001b[?25h\u001b[m\u001b[28;109H\u001b[38;5;230m\u001b[48;5;245m109\u001b[7;5H\u001b[28;109H217\u001b[8;5H\u001b[?25l\u001b[m\u001b[6;"
+    ],
+    [
+      2.5e-05,
+      "5H      \u001b[38;5;224m{\u001b[m\"apiVersion\"\u001b[38;5;224m:\u001b[m\"metal3.io/v1alpha1\",\"kind\"\u001b[38;5;224m:\u001b[m\"BareMetalHost\",\"metadata\"\u001b[38;5;224m:{\u001b[m\"annotations\"\u001b[38;5;224m:{}\u001b[m,\"name\"\u001b[38;5;224m:\u001b[m\"host-1\"\"\u001b[7;1H\u001b[93m \u001b[m\u001b[3C,\"namespace\"\u001b[38;5;224m:\u001b[m\"metal3\"\u001b[38;5;224m}\u001b[m,\"spec\"\u001b[38;5;224m:{\u001b[m\"bmc\"\u001b[38;5;224m:{\u001b[m\"address\"\u001b[38;5;224m:\u001b[m\"ipmi://192.168.111.1:6230\",\"credentialsName\"\u001b[38;5;224m:\u001b[m\"host-1-bmc-see\u001b[8;1H\u001b[93m \u001b[m\u001b[3Ccret\"\u001b[38;5;224m}\u001b[m,\"bootMACAddress\"\u001b[38;5;224m:\u001b[m\"00:7f:d5:44:8c:52\",\"online\"\u001b[38;5;224m:\u001b[m\u001b[95mtrue\u001b[m\u001b[38;5;224m}}\u001b[m\u001b[8;64H\u001b[K\u001b[9;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mcreationTimestamp\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \"2019-11-13T21:52:00Z\"                                                                 \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m4\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m7/\u001b[m\u001b[8C\u001b[38;5;230m\u001b[48;5;245m  1\u001b[9;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m  \u001b[1m\u001b[96mcreationTimestamp\u001b[m\u001b[38;5;224m:\u001b[m \"2019-11-13T21:52:00Z\"\u001b[9;48H\u001b[K\u001b[10;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mfinalizers\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                 "
+    ],
+    [
+      0.101479,
+      "                                                              \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m8/\u001b[10;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m  \u001b[1m\u001b[96mfinalizers\u001b[m\u001b[38;5;224m:\u001b[m\u001b[10;18H\u001b[K\u001b[11;5H\u001b[4m  \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mbaremetalhost.metal3.io                                                                                 \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m5\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m9/\u001b[11;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.592519,
+      "\u001b[?25l\u001b[m  \u001b[93m- \u001b[mbaremetalhost.metal3.io\u001b[11;32H\u001b[K\u001b[12;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mgeneration\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95m1\u001b[m\u001b[4m                                                                                             \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m6\u001b[m\u001b[6C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m10/\u001b[12;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m  \u001b[1m\u001b[96mgeneration\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m1\u001b[m\u001b[12;20H\u001b[K\u001b[13;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mname\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m host-1                                                                                              \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m1/\u001b[13;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m  \u001b[1m\u001b[96mname\u001b[m\u001b[38;5;224m:\u001b[m host-1\u001b[13;19H\u001b[K\u001b[14;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mnamespace\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m metal3                                                                                         \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m7\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m2/\u001b[14;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m  \u001b[1m\u001b[96mnamespace\u001b[m\u001b[38;5;224m:\u001b[m metal3\u001b[14;24H\u001b[K\u001b[15;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mresourceVers"
+    ],
+    [
+      3.3e-05,
+      "ion\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \"2977\"                                                                                   \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m3/\u001b[15;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m  \u001b[1m\u001b[96mresourceVersion\u001b[m\u001b[38;5;224m:\u001b[m \"2977\"\u001b[15;30H\u001b[K\u001b[16;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mselfLink\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m /apis/metal3.io/v1alpha1/namespaces/metal3/baremetalhosts/host-1                                \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m8\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m4/\u001b[16;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m  \u001b[1m\u001b[96mselfLink\u001b[m\u001b[38;5;224m:\u001b[m /apis/metal3.io/v1alpha1/namespaces/metal3/baremetalhosts/host-1\u001b[16;81H\u001b[K\u001b[17;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96muid\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m 5b6b2b6a-e94b-4d37-8bfd-21cf64495aa1                                                                 \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m9\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m5/\u001b[17;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m  \u001b[1m\u001b[96muid\u001b[m\u001b[38;5;224m:\u001b[m 5b6b2b6a-e94b-4d37-8bfd-21cf64495aa1\u001b[17;48H\u001b[K\u001b[18;5H\u001b[1m\u001b[4m\u001b[96mspec\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                  "
+    ],
+    [
+      0.345472,
+      "                                                                                     \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m6/\u001b[18;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[1m\u001b[96mspec\u001b[m\u001b[38;5;224m:\u001b[m\u001b[18;10H\u001b[K\u001b[19;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mbmc\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                                      \u001b[m\u001b[28;90H\u001b[38;5;230m\u001b[48;5;245m10\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m7/\u001b[19;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m  \u001b[1m\u001b[96mbmc\u001b[m\u001b[38;5;224m:\u001b[m\u001b[19;11H\u001b[K\u001b[20;5H\u001b[4m    \u001b[m\u001b[1m\u001b[4m\u001b[96maddress\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m ipmi://192.168.111.1:6230                                                                      \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m8/\u001b[20;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m    \u001b[1m\u001b[96maddress\u001b[m\u001b[38;5;224m:\u001b[m ipmi://192.168.111.1:6230\u001b[20;43H\u001b[K\u001b[21;5H\u001b[4m    \u001b[m\u001b[1m\u001b[4m\u001b[96mcredentialsName\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m host-1-bmc-secret                                                                      \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m1\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m"
+    ],
+    [
+      1.8e-05,
+      "9/\u001b[21;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m    \u001b[1m\u001b[96mcredentialsName\u001b[m\u001b[38;5;224m:\u001b[m host-1-bmc-secret\u001b[21;43H\u001b[K\u001b[22;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mbootMACAddress\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m 00:7f:d5:44:8c:52                                                                         \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m2\u001b[m\u001b[6C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m20/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.503738,
+      "\u001b[?25l\u001b[m  \u001b[1m\u001b[96mbootMACAddress\u001b[m\u001b[38;5;224m:\u001b[m 00:7f:d5:44:8c:52\u001b[22;40H\u001b[K\u001b[23;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96monline\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95mtrue\u001b[m\u001b[4m                                                                                              \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m1/\u001b[23;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m  \u001b[1m\u001b[96monline\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95mtrue\u001b[m\u001b[23;19H\u001b[K\u001b[24;5H\u001b[1m\u001b[4m\u001b[96mstatus\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                                     \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m3\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m2/\u001b[24;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[1;27r\u001b[m\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H\u001b[1m\u001b[96mstatus\u001b[m\u001b[38;5;224m:\u001b[m\u001b[19;12H\u001b[K\u001b[20;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96merrorMessage\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \"\"                                                                                          \u001b[m\u001b[23;1H\u001b[93m 26 \u001b[m      \u001b[1m\u001b[96mname\u001b[m\u001b[38;5;224m:\u001b[m host-1-bmc-secret\r\n\u001b[93m 27 \u001b[m      \u001b[1m\u001b[96mnamespace\u001b[m\u001b[38;5;224m:\u001b[m metal3\r\n\u001b[93m 28 \u001b["
+    ],
+    [
+      2.3e-05,
+      "m    \u001b[1m\u001b[96mcredentialsVersion\u001b[m\u001b[38;5;224m:\u001b[m \"2654\"\r\n\u001b[93m 29 \u001b[m  \u001b[1m\u001b[96mhardware\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m 30 \u001b[m    \u001b[1m\u001b[96mcpu\u001b[m\u001b[38;5;224m:\u001b[m\u001b[29;1H\u001b[K\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m4\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m3/\u001b[20;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m  \u001b[1m\u001b[96merrorMessage\u001b[m\u001b[38;5;224m:\u001b[m \"\"\u001b[20;23H\u001b[K\u001b[21;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mgoodCredentials\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                          \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m4/\u001b[21;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m  \u001b[1m\u001b[96mgoodCredentials\u001b[m\u001b[38;5;224m:\u001b[m\u001b[21;23H\u001b[K\u001b[22;5H\u001b[4m    \u001b[m\u001b[1m\u001b[4m\u001b[96mcredentials\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                            \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m5\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m5/\u001b[22;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m    \u001b[1m\u001b[96mcredentials\u001b[m\u001b[38;5;224m:\u001b[m\u001b[22;21H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mname\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m host-1-bmc-secret                                   "
+    ],
+    [
+      0.189055,
+      "                                            \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m6/\u001b[23;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m      \u001b[1m\u001b[96mname\u001b[m\u001b[38;5;224m:\u001b[m host-1-bmc-secret\u001b[23;34H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mnamespace\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m metal3                                                                                     \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m6\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m7/\u001b[24;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[1;27r\u001b[m\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[1m\u001b[96mnamespace\u001b[m\u001b[38;5;224m:\u001b[m metal3\u001b[19;28H\u001b[K\u001b[20;5H\u001b[4m    \u001b[m\u001b[1m\u001b[4m\u001b[96mcredentialsVersion\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \"2654\"                                                                              \u001b[m\u001b[23;1H\u001b[93m 31 \u001b[m      \u001b[1m\u001b[96march\u001b[m\u001b[38;5;224m:\u001b[m x86_64\r\n\u001b[93m 32 \u001b[m      \u001b[1m\u001b[96mclockMegahertz\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m3504.01\u001b[m\r\n\u001b[93m 33 \u001b[m      \u001b[1m\u001b[96mcount\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m4\u001b[m\r\n\u001b[93m 34 \u001b[m      \u001b[1m\u001b[96mflags\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m 35 \u001b[m      \u001b[93m- \u001b[m3dnowprefetch\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m7\u001b[m\u001b[7C\u001b"
+    ],
+    [
+      2.5e-05,
+      "[1m\u001b[38;5;230m\u001b[48;5;245m8/\u001b[20;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m    \u001b[1m\u001b[96mcredentialsVersion\u001b[m\u001b[38;5;224m:\u001b[m \"2654\"\u001b[20;35H\u001b[K\u001b[21;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mhardware\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                                 \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m9/\u001b[21;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m  \u001b[1m\u001b[96mhardware\u001b[m\u001b[38;5;224m:\u001b[m\u001b[21;16H\u001b[K\u001b[22;5H\u001b[4m    \u001b[m\u001b[1m\u001b[4m\u001b[96mcpu\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                                    \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m8\u001b[m\u001b[6C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m30/\u001b[22;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m    \u001b[1m\u001b[96mcpu\u001b[m\u001b[38;5;224m:\u001b[m\u001b[22;13H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96march\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m x86_64                                                                                          \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m1/\u001b[23;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m      \u001b[1m\u001b[96march\u001b[m\u001b[38;5;224m:\u001b[m x86_64\u001b[23;23H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[1m"
+    ],
+    [
+      0.113626,
+      "\u001b[4m\u001b[96mclockMegahertz\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95m3504.01\u001b[m\u001b[4m                                                                               \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m9\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m2/\u001b[24;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[1;27r\u001b[m\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[1m\u001b[96mclockMegahertz\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m3504.01\u001b[m\u001b[19;34H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mcount\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95m4\u001b[m\u001b[4m                                                                                              \u001b[m\u001b[23;1H\u001b[93m 36 \u001b[m      \u001b[93m- \u001b[mabm\r\n\u001b[93m 37 \u001b[m      \u001b[93m- \u001b[madx\r\n\u001b[93m 38 \u001b[m      \u001b[93m- \u001b[maes\r\n\u001b[93m 39 \u001b[m      \u001b[93m- \u001b[mapic\r\n\u001b[93m 40 \u001b[m      \u001b[93m- \u001b[marat\u001b[28;90H\u001b[38;5;230m\u001b[48;5;245m20\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m3/\u001b[20;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m      \u001b[1m\u001b[96mcount\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m4\u001b[m\u001b[20;19H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mflags\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                               "
+    ],
+    [
+      2.9e-05,
+      " \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m4/\u001b[21;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m      \u001b[1m\u001b[96mflags\u001b[m\u001b[38;5;224m:\u001b[m\u001b[21;17H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4m3dnowprefetch                                                                                       \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m1\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m5/\u001b[22;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m      \u001b[93m- \u001b[m3dnowprefetch\u001b[22;26H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mabm                                                                                                 \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m6/\u001b[23;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m      \u001b[93m- \u001b[mabm\u001b[23;16H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4madx                                                                                                 \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m2\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m7/\u001b[24;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[1;27r\u001b[m\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[93m- \u001b[madx\u001b[19;16H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4maes                                                           "
+    ],
+    [
+      0.037967,
+      "                                      \u001b[m\u001b[23;1H\u001b[93m 41 \u001b[m      \u001b[93m- \u001b[march_perfmon\r\n\u001b[93m 42 \u001b[m      \u001b[93m- \u001b[mavx\r\n\u001b[93m 43 \u001b[m      \u001b[93m- \u001b[mavx2\r\n\u001b[93m 44 \u001b[m      \u001b[93m- \u001b[mbmi1\r\n\u001b[93m 45 \u001b[m      \u001b[93m- \u001b[mbmi2\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m3\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m8/\u001b[20;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m      \u001b[93m- \u001b[maes\u001b[20;16H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mapic                                                                                                \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m9/\u001b[21;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m      \u001b[93m- \u001b[mapic\u001b[21;17H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4marat                                                                                                \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m4\u001b[m\u001b[6C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m40/\u001b[22;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.016413,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[93m- \u001b[marat\u001b[22;17H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4march_perfmon                                                                                        \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m5\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m1/\u001b[23;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.016397,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[93m- \u001b[march_perfmon\u001b[23;25H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mavx                                                                                                 \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m2/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.230363,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.036296,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[93m- \u001b[mavx\u001b[19;16H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mavx2                                                                                                \u001b[m\u001b[23;1H\u001b[93m 46 \u001b[m      \u001b[93m- \u001b[mclflush\r\n\u001b[93m 47 \u001b[m      \u001b[93m- \u001b[mclflushopt\r\n\u001b[93m 48 \u001b[m      \u001b[93m- \u001b[mcmov\r\n\u001b[93m 49 \u001b[m      \u001b[93m- \u001b[mconstant_tsc\r\n\u001b[93m 50 \u001b[m      \u001b[93m- \u001b[mcx16\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m6\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m3/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.390756,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.027893,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[93m- \u001b[mavx2\u001b[20;17H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mbmi1                                                                                                \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m4/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.370091,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.027446,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[93m- \u001b[mbmi1\u001b[21;17H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mbmi2                                                                                                \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m7\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m5/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.459518,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.036209,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[93m- \u001b[mbmi2\u001b[22;17H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mclflush                                                                                             \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m8\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m6/\u001b[23;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.019624,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[93m- \u001b[mclflush\u001b[23;20H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mclflushopt                                                                                          \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m7/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.003049,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.015779,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[93m- \u001b[mclflushopt\u001b[19;23H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mcmov                                                                                                \u001b[m\u001b[23;1H\u001b[93m 51 \u001b[m      \u001b[93m- \u001b[mcx8\r\n\u001b[93m 52 \u001b[m      \u001b[93m- \u001b[mde\r\n\u001b[93m 53 \u001b[m      \u001b[93m- \u001b[meagerfpu\r\n\u001b[93m 54 \u001b[m      \u001b[93m- \u001b[merms\r\n\u001b[93m 55 \u001b[m      \u001b[93m- \u001b[mf16c\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m9\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m8/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.01304,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.015622,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[93m- \u001b[mcmov\u001b[20;17H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mconstant_tsc                                                                                        \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m9/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.031149,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.015888,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[93m- \u001b[mconstant_tsc\u001b[21;25H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mcx16                                                                                                \u001b[m\u001b[28;90H\u001b[38;5;230m\u001b[48;5;245m30\u001b[m\u001b[6C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m50/\u001b[22;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.015838,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[93m- \u001b[mcx16\u001b[22;17H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mcx8                                                                                                 \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m1\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m1/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.016395,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.016484,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[93m- \u001b[mcx8\u001b[23;16H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mde                                                                                                  \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m2/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.008617,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.020236,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[93m- \u001b[mde\u001b[19;15H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4meagerfpu                                                                                            \u001b[m\u001b[23;1H\u001b[93m 56 \u001b[m      \u001b[93m- \u001b[mfma\r\n\u001b[93m 57 \u001b[m      \u001b[93m- \u001b[mfpu\r\n\u001b[93m 58 \u001b[m      \u001b[93m- \u001b[mfsgsbase\r\n\u001b[93m 59 \u001b[m      \u001b[93m- \u001b[mfxsr\r\n\u001b[93m 60 \u001b[m      \u001b[93m- \u001b[mhypervisor\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m2\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m3/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.015268,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.02089,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[93m- \u001b[meagerfpu\u001b[20;21H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4merms                                                                                                \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m4/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.004197,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.018251,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[93m- \u001b[merms\u001b[21;17H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mf16c                                                                                                \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m3\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m5/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.022449,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.01677,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[93m- \u001b[mf16c\u001b[22;17H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mfma                                                                                                 \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m4\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m6/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.003955,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.018902,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[93m- \u001b[mfma\u001b[23;16H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mfpu                                                                                                 \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m7/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.015909,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.022065,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[93m- \u001b[mfpu\u001b[19;16H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mfsgsbase                                                                                            \u001b[m\u001b[23;1H\u001b[93m 61 \u001b[m      \u001b[93m- \u001b[mibpb\r\n\u001b[93m 62 \u001b[m      \u001b[93m- \u001b[mibrs\r\n\u001b[93m 63 \u001b[m      \u001b[93m- \u001b[mintel_stibp\r\n\u001b[93m 64 \u001b[m      \u001b[93m- \u001b[minvpcid\r\n\u001b[93m 65 \u001b[m      \u001b[93m- \u001b[minvpcid_single\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m5\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m8/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.006807,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.019873,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[93m- \u001b[mfsgsbase\u001b[20;21H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mfxsr                                                                                                \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m9/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.012224,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.019264,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[93m- \u001b[mfxsr\u001b[21;17H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mhypervisor                                                                                          \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m6\u001b[m\u001b[6C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m60/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.009471,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.018963,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[93m- \u001b[mhypervisor\u001b[22;23H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mibpb                                                                                                \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m7\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m1/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.012859,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.013381,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[93m- \u001b[mibpb\u001b[23;17H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mibrs                                                                                                \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m2/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.02253,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.016153,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[93m- \u001b[mibrs\u001b[19;17H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mintel_stibp                                                                                         \u001b[m\u001b[23;1H\u001b[93m 66 \u001b[m      \u001b[93m- \u001b[mlahf_lm\r\n\u001b[93m 67 \u001b[m      \u001b[93m- \u001b[mlm\r\n\u001b[93m 68 \u001b[m      \u001b[93m- \u001b[mmca\r\n\u001b[93m 69 \u001b[m      \u001b[93m- \u001b[mmce\r\n\u001b[93m 70 \u001b[m      \u001b[93m- \u001b[mmd_clear\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m8\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m3/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.013861,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.016207,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[93m- \u001b[mintel_stibp\u001b[20;24H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4minvpcid                                                                                             \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m9\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m4/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.007703,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.0291,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[93m- \u001b[minvpcid\u001b[21;20H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4minvpcid_single                                                                                      \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m5/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.003647,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.017189,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[93m- \u001b[minvpcid_single\u001b[22;27H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mlahf_lm                                                                                             \u001b[m\u001b[28;90H\u001b[38;5;230m\u001b[48;5;245m40\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m6/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.008795,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.0209,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[93m- \u001b[mlahf_lm\u001b[23;20H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mlm                                                                                                  \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m7/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.01053,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.015207,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[93m- \u001b[mlm\u001b[19;15H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mmca                                                                                                 \u001b[m\u001b[23;1H\u001b[93m 71 \u001b[m      \u001b[93m- \u001b[mmmx\r\n\u001b[93m 72 \u001b[m      \u001b[93m- \u001b[mmovbe\r\n\u001b[93m 73 \u001b[m      \u001b[93m- \u001b[mmpx\r\n\u001b[93m 74 \u001b[m      \u001b[93m- \u001b[mmsr\r\n\u001b[93m 75 \u001b[m      \u001b[93m- \u001b[mmtrr\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m1\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m8/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.016926,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.015944,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[93m- \u001b[mmca\u001b[20;16H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mmce                                                                                                 \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m2\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m9/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.016647,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.015405,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[93m- \u001b[mmce\u001b[21;16H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mmd_clear                                                                                            \u001b[m\u001b[28;98H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m70/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.01213,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.015742,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[93m- \u001b[mmd_clear\u001b[22;21H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mmmx                                                                                                 \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m3\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m1/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.014897,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.015288,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[93m- \u001b[mmmx\u001b[23;16H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mmovbe                                                                                               \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m2/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.012825,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.014649,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[93m- \u001b[mmovbe\u001b[19;18H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mmpx                                                                                                 \u001b[m\u001b[23;1H\u001b[93m 76 \u001b[m      \u001b[93m- \u001b[mnopl\r\n\u001b[93m 77 \u001b[m      \u001b[93m- \u001b[mnx\r\n\u001b[93m 78 \u001b[m      \u001b[93m- \u001b[mpae\r\n\u001b[93m 79 \u001b[m      \u001b[93m- \u001b[mpat\r\n\u001b[93m 80 \u001b[m      \u001b[93m- \u001b[mpcid\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m4\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m3/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.019571,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.014432,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[93m- \u001b[mmpx\u001b[20;16H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mmsr                                                                                                 \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m5\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m4/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.013957,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.01463,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[93m- \u001b[mmsr\u001b[21;16H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mmtrr                                                                                                \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m5/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.013883,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.024519,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[93m- \u001b[mmtrr\u001b[22;17H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mnopl                                                                                                \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m6\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m6/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.005718,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.014875,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[93m- \u001b[mnopl\u001b[23;17H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mnx                                                                                                  \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m7/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.01803,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.014539,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[93m- \u001b[mnx\u001b[19;15H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mpae                                                                                                 \u001b[m\u001b[23;1H\u001b[93m 81 \u001b[m      \u001b[93m- \u001b[mpclmulqdq\r\n\u001b[93m 82 \u001b[m      \u001b[93m- \u001b[mpdpe1gb\r\n\u001b[93m 83 \u001b[m      \u001b[93m- \u001b[mpge\r\n\u001b[93m 84 \u001b[m      \u001b[93m- \u001b[mpni\r\n\u001b[93m 85 \u001b[m      \u001b[93m- \u001b[mpopcnt\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m7\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m8/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.014483,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.01713,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[93m- \u001b[mpae\u001b[20;16H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mpat                                                                                                 \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m8\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m9/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.013748,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.015175,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[93m- \u001b[mpat\u001b[21;16H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mpcid                                                                                                \u001b[m\u001b[28;98H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m80/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.016121,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.014756,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[93m- \u001b[mpcid\u001b[22;17H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mpclmulqdq                                                                                           \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m9\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m1/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.016085,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.014889,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[93m- \u001b[mpclmulqdq\u001b[23;22H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mpdpe1gb                                                                                             \u001b[m\u001b[28;90H\u001b[38;5;230m\u001b[48;5;245m50\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m2/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.020898,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.01458,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[93m- \u001b[mpdpe1gb\u001b[19;20H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mpge                                                                                                 \u001b[m\u001b[23;1H\u001b[93m 86 \u001b[m      \u001b[93m- \u001b[mpse\r\n\u001b[93m 87 \u001b[m      \u001b[93m- \u001b[mpse36\r\n\u001b[93m 88 \u001b[m      \u001b[93m- \u001b[mrdrand\r\n\u001b[93m 89 \u001b[m      \u001b[93m- \u001b[mrdseed\r\n\u001b[93m 90 \u001b[m      \u001b[93m- \u001b[mrdtscp\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m3/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.014882,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.014651,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[93m- \u001b[mpge\u001b[20;16H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mpni                                                                                                 \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m1\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m4/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.008072,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.014474,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[93m- \u001b[mpni\u001b[21;16H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mpopcnt                                                                                              \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m5/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.026445,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.014492,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[93m- \u001b[mpopcnt\u001b[22;19H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mpse                                                                                                 \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m2\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m6/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.006604,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.014575,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[93m- \u001b[mpse\u001b[23;16H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mpse36                                                                                               \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m3\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m7/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.019786,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.014334,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[93m- \u001b[mpse36\u001b[19;18H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mrdrand                                                                                              \u001b[m\u001b[23;1H\u001b[93m 91 \u001b[m      \u001b[93m- \u001b[mrep_good\r\n\u001b[93m 92 \u001b[m      \u001b[93m- \u001b[msep\r\n\u001b[93m 93 \u001b[m      \u001b[93m- \u001b[msmap\r\n\u001b[93m 94 \u001b[m      \u001b[93m- \u001b[msmep\r\n\u001b[93m 95 \u001b[m      \u001b[93m- \u001b[mspec_ctrl\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m8/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.011225,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.015348,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[93m- \u001b[mrdrand\u001b[20;19H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mrdseed                                                                                              \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m4\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m9/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.016617,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.01482,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[93m- \u001b[mrdseed\u001b[21;19H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mrdtscp                                                                                              \u001b[m\u001b[28;98H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m90/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.017084,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.021928,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[93m- \u001b[mrdtscp\u001b[22;19H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mrep_good                                                                                            \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m5\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m1/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.012028,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.023419,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[93m- \u001b[mrep_good\u001b[23;21H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4msep                                                                                                 \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m6\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m2/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.008105,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.014663,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[93m- \u001b[msep\u001b[19;16H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4msmap                                                                                                \u001b[m\u001b[23;1H\u001b[93m 96 \u001b[m      \u001b[93m- \u001b[mss\r\n\u001b[93m 97 \u001b[m      \u001b[93m- \u001b[mssbd\r\n\u001b[93m 98 \u001b[m      \u001b[93m- \u001b[msse\r\n\u001b[93m 99 \u001b[m      \u001b[93m- \u001b[msse2\r\n\u001b[93m100 \u001b[m      \u001b[93m- \u001b[msse4_1\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m3/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.021722,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.015424,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[93m- \u001b[msmap\u001b[20;17H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4msmep                                                                                                \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m7\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m4/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.002885,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.014503,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[93m- \u001b[msmep\u001b[21;17H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mspec_ctrl                                                                                           \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m5/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.022348,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.014633,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[93m- \u001b[mspec_ctrl\u001b[22;22H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mss                                                                                                  \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m8\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m6/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.01642,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.014415,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[93m- \u001b[mss\u001b[23;15H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mssbd                                                                                                \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m9\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m7/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.014398,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.026638,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[93m- \u001b[mssbd\u001b[19;17H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4msse                                                                                                 \u001b[m\u001b[23;1H\u001b[93m101 \u001b[m      \u001b[93m- \u001b[msse4_2\r\n\u001b[93m102 \u001b[m      \u001b[93m- \u001b[mssse3\r\n\u001b[93m103 \u001b[m      \u001b[93m- \u001b[mstibp\r\n\u001b[93m104 \u001b[m      \u001b[93m- \u001b[msyscall\r\n\u001b[93m105 \u001b[m      \u001b[93m- \u001b[mtsc\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m8/\u001b[20;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.01609,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[93m- \u001b[msse\u001b[20;16H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4msse2                                                                                                \u001b[m\u001b[28;90H\u001b[38;5;230m\u001b[48;5;245m60\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m9/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.011973,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.015229,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[93m- \u001b[msse2\u001b[21;17H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4msse4_1                                                                                              \u001b[m\u001b[28;97H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m100/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.016366,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.015037,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[93m- \u001b[msse4_1\u001b[22;19H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4msse4_2                                                                                              \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m1\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m1/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.016438,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.016789,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[93m- \u001b[msse4_2\u001b[23;19H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mssse3                                                                                               \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m2\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m2/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.017413,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.01598,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[93m- \u001b[mssse3\u001b[19;18H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mstibp                                                                                               \u001b[m\u001b[23;1H\u001b[93m106 \u001b[m      \u001b[93m- \u001b[mtsc_adjust\r\n\u001b[93m107 \u001b[m      \u001b[93m- \u001b[mtsc_deadline_timer\r\n\u001b[93m108 \u001b[m      \u001b[93m- \u001b[mvme\r\n\u001b[93m109 \u001b[m      \u001b[93m- \u001b[mx2apic\r\n\u001b[93m110 \u001b[m      \u001b[93m- \u001b[mxgetbv1\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m3/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.005212,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.01855,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[93m- \u001b[mstibp\u001b[20;18H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4msyscall                                                                                             \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m3\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m4/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.016541,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.016423,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[93m- \u001b[msyscall\u001b[21;20H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mtsc                                                                                                 \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m4\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m5/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.008742,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.016082,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[93m- \u001b[mtsc\u001b[22;16H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mtsc_adjust                                                                                          \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m6/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.02026,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.028379,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[93m- \u001b[mtsc_adjust\u001b[23;23H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mtsc_deadline_timer                                                                                  \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m5\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m7/\u001b[24;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.018564,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[93m- \u001b[mtsc_deadline_timer\u001b[19;31H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mvme                                                                                                 \u001b[m\u001b[23;1H\u001b[93m111 \u001b[m      \u001b[93m- \u001b[mxsave\r\n\u001b[93m112 \u001b[m      \u001b[93m- \u001b[mxsavec\r\n\u001b[93m113 \u001b[m      \u001b[93m- \u001b[mxsaveopt\r\n\u001b[93m114 \u001b[m      \u001b[93m- \u001b[mxtopology\r\n\u001b[93m115 \u001b[m      \u001b[1m\u001b[96mmodel\u001b[m\u001b[38;5;224m:\u001b[m Intel(R) Core(TM) i7-7567U CPU @ 3.50GHz\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m8/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.013195,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.017345,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[93m- \u001b[mvme\u001b[20;16H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mx2apic                                                                                              \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m6\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m9/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.006929,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.025782,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[93m- \u001b[mx2apic\u001b[21;19H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mxgetbv1                                                                                             \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m7\u001b[m\u001b[6C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m10/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.002586,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.017471,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[93m- \u001b[mxgetbv1\u001b[22;20H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mxsave                                                                                               \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m1/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.014557,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.018271,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[93m- \u001b[mxsave\u001b[23;18H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mxsavec                                                                                              \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m8\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m2/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.016649,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.018618,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[93m- \u001b[mxsavec\u001b[19;19H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mxsaveopt                                                                                            \u001b[m\u001b[23;1H\u001b[93m116 \u001b[m    \u001b[1m\u001b[96mfirmware\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m117 \u001b[m      \u001b[1m\u001b[96mbios\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m118 \u001b[m\u001b[8C\u001b[1m\u001b[96mdate\u001b[m\u001b[38;5;224m:\u001b[m 04/01/2014\r\n\u001b[93m119 \u001b[m\u001b[8C\u001b[1m\u001b[96mvendor\u001b[m\u001b[38;5;224m:\u001b[m SeaBIOS\r\n\u001b[93m120 \u001b[m\u001b[8C\u001b[1m\u001b[96mversion\u001b[m\u001b[38;5;224m:\u001b[m 1.11.0-2.el7\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m3/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.006555,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.018621,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[93m- \u001b[mxsaveopt\u001b[20;21H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[4mxtopology                                                                                           \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m9\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m4/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.017132,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.018187,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[93m- \u001b[mxtopology\u001b[21;22H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mmodel\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m Intel(R) Core(TM) i7-7567U CPU @ 3.50GHz                                                       \u001b[m\u001b[28;90H\u001b[38;5;230m\u001b[48;5;245m70\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m5/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.008449,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.018675,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[1m\u001b[96mmodel\u001b[m\u001b[38;5;224m:\u001b[m Intel(R) Core(TM) i7-7567U CPU @ 3.50GHz\u001b[22;58H\u001b[K\u001b[23;5H\u001b[4m    \u001b[m\u001b[1m\u001b[4m\u001b[96mfirmware\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                               \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m6/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.009581,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.01823,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H    \u001b[1m\u001b[96mfirmware\u001b[m\u001b[38;5;224m:\u001b[m\u001b[23;18H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mbios\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                                 \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m1\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m7/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.011893,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.020828,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[1m\u001b[96mbios\u001b[m\u001b[38;5;224m:\u001b[m\u001b[19;16H\u001b[K\u001b[20;5H\u001b[4m        \u001b[m\u001b[1m\u001b[4m\u001b[96mdate\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m 04/01/2014                                                                                    \u001b[m\u001b[23;1H\u001b[93m121 \u001b[m    \u001b[1m\u001b[96mhostname\u001b[m\u001b[38;5;224m:\u001b[m master-0\r\n\u001b[93m122 \u001b[m    \u001b[1m\u001b[96mnics\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m123 \u001b[m    \u001b[93m- \u001b[m\u001b[1m\u001b[96mip\u001b[m\u001b[38;5;224m:\u001b[m 172.22.0.59\r\n\u001b[93m124 \u001b[m      \u001b[1m\u001b[96mmac\u001b[m\u001b[38;5;224m:\u001b[m 00:7f:d5:44:8c:52\r\n\u001b[93m125 \u001b[m      \u001b[1m\u001b[96mmodel\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m0x1af4\u001b[m \u001b[95m0x0001\u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m8/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.021234,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.020872,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H        \u001b[1m\u001b[96mdate\u001b[m\u001b[38;5;224m:\u001b[m 04/01/2014\u001b[20;29H\u001b[K\u001b[21;5H\u001b[4m        \u001b[m\u001b[1m\u001b[4m\u001b[96mvendor\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m SeaBIOS                                                                                     \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m2\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m9/\u001b[21;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.020839,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H        \u001b[1m\u001b[96mvendor\u001b[m\u001b[38;5;224m:\u001b[m SeaBIOS\u001b[21;28H\u001b[K\u001b[22;5H\u001b[4m        \u001b[m\u001b[1m\u001b[4m\u001b[96mversion\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m 1.11.0-2.el7                                                                               \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m3\u001b[m\u001b[6C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m20/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.015134,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.021001,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H        \u001b[1m\u001b[96mversion\u001b[m\u001b[38;5;224m:\u001b[m 1.11.0-2.el7\u001b[22;34H\u001b[K\u001b[23;5H\u001b[4m    \u001b[m\u001b[1m\u001b[4m\u001b[96mhostname\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m master-0                                                                                      \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m1/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.003376,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.021029,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H    \u001b[1m\u001b[96mhostname\u001b[m\u001b[38;5;224m:\u001b[m master-0\u001b[23;27H\u001b[K\u001b[24;5H\u001b[4m    \u001b[m\u001b[1m\u001b[4m\u001b[96mnics\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                                   \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m4\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m2/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.009006,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.021616,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H    \u001b[1m\u001b[96mnics\u001b[m\u001b[38;5;224m:\u001b[m\u001b[19;14H\u001b[K\u001b[20;5H\u001b[4m    \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[1m\u001b[4m\u001b[96mip\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m 172.22.0.59                                                                                       \u001b[m\u001b[23;1H\u001b[93m126 \u001b[m      \u001b[1m\u001b[96mname\u001b[m\u001b[38;5;224m:\u001b[m eth0\r\n\u001b[93m127 \u001b[m      \u001b[1m\u001b[96mpxe\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95mtrue\u001b[m\r\n\u001b[93m128 \u001b[m      \u001b[1m\u001b[96mspeedGbps\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m0\u001b[m\r\n\u001b[93m129 \u001b[m      \u001b[1m\u001b[96mvlanId\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m0\u001b[m\r\n\u001b[93m130 \u001b[m    \u001b[93m- \u001b[m\u001b[1m\u001b[96mip\u001b[m\u001b[38;5;224m:\u001b[m 192.168.111.20\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m5\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m3/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.011175,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.031103,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H    \u001b[93m- \u001b[m\u001b[1m\u001b[96mip\u001b[m\u001b[38;5;224m:\u001b[m 172.22.0.59\u001b[20;26H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mmac\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m 00:7f:d5:44:8c:52                                                                                \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m4/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000258,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.021227,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[1m\u001b[96mmac\u001b[m\u001b[38;5;224m:\u001b[m 00:7f:d5:44:8c:52\u001b[21;33H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mmodel\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95m0x1af4\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95m0x0001\u001b[m\u001b[4m                                                                                  \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m6\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m5/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.319835,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.016391,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[1m\u001b[96mmodel\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m0x1af4\u001b[m \u001b[95m0x0001\u001b[m\u001b[22;31H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mname\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m eth0                                                                                            \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m6/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.4797,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.03989,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[1m\u001b[96mname\u001b[m\u001b[38;5;224m:\u001b[m eth0\u001b[23;21H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mpxe\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95mtrue\u001b[m\u001b[4m                                                                                             \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m7\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m7/\u001b[24;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.022902,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[1m\u001b[96mpxe\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95mtrue\u001b[m\u001b[19;20H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mspeedGbps\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95m0\u001b[m\u001b[4m                                                                                          \u001b[m\u001b[23;1H\u001b[93m131 \u001b[m      \u001b[1m\u001b[96mmac\u001b[m\u001b[38;5;224m:\u001b[m 00:7f:d5:44:8c:54\r\n\u001b[93m132 \u001b[m      \u001b[1m\u001b[96mmodel\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m0x1af4\u001b[m \u001b[95m0x0001\u001b[m\r\n\u001b[93m133 \u001b[m      \u001b[1m\u001b[96mname\u001b[m\u001b[38;5;224m:\u001b[m eth1\r\n\u001b[93m134 \u001b[m      \u001b[1m\u001b[96mpxe\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95mfalse\u001b[m\r\n\u001b[93m135 \u001b[m      \u001b[1m\u001b[96mspeedGbps\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m0\u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m8\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m8/\u001b[20;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.022141,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[1m\u001b[96mspeedGbps\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m0\u001b[m\u001b[20;23H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mvlanId\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95m0\u001b[m\u001b[4m                                                                                             \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m9/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.005097,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.022348,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[1m\u001b[96mvlanId\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m0\u001b[m\u001b[21;20H\u001b[K\u001b[22;5H\u001b[4m    \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[1m\u001b[4m\u001b[96mip\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m 192.168.111.20                                                                                    \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m9\u001b[m\u001b[6C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m30/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.007539,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.022225,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H    \u001b[93m- \u001b[m\u001b[1m\u001b[96mip\u001b[m\u001b[38;5;224m:\u001b[m 192.168.111.20\u001b[22;29H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mmac\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m 00:7f:d5:44:8c:54                                                                                \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m1/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.001826,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.022723,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[1m\u001b[96mmac\u001b[m\u001b[38;5;224m:\u001b[m 00:7f:d5:44:8c:54\u001b[23;33H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mmodel\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95m0x1af4\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95m0x0001\u001b[m\u001b[4m                                                                                  \u001b[m\u001b[28;90H\u001b[38;5;230m\u001b[48;5;245m80\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m2/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.009476,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.029993,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[1m\u001b[96mmodel\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m0x1af4\u001b[m \u001b[95m0x0001\u001b[m\u001b[19;31H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mname\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m eth1                                                                                            \u001b[m\u001b[23;1H\u001b[93m136 \u001b[m      \u001b[1m\u001b[96mvlanId\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m0\u001b[m\r\n\u001b[93m137 \u001b[m    \u001b[1m\u001b[96mramMebibytes\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m8192\u001b[m\r\n\u001b[93m138 \u001b[m    \u001b[1m\u001b[96mstorage\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m139 \u001b[m    \u001b[93m- \u001b[m\u001b[1m\u001b[96mhctl\u001b[m\u001b[38;5;224m:\u001b[m \"6:0:0:0\"\r\n\u001b[93m140 \u001b[m      \u001b[1m\u001b[96mmodel\u001b[m\u001b[38;5;224m:\u001b[m QEMU HARDDISK\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m1\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m3/\u001b[20;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.02227,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[1m\u001b[96mname\u001b[m\u001b[38;5;224m:\u001b[m eth1\u001b[20;21H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mpxe\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95mfalse\u001b[m\u001b[4m                                                                                            \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m4/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.012241,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.022686,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[1m\u001b[96mpxe\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95mfalse\u001b[m\u001b[21;21H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mspeedGbps\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95m0\u001b[m\u001b[4m                                                                                          \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m2\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m5/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.002729,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.02314,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[1m\u001b[96mspeedGbps\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m0\u001b[m\u001b[22;23H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mvlanId\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95m0\u001b[m\u001b[4m                                                                                             \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m6/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.00853,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.022711,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[1m\u001b[96mvlanId\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m0\u001b[m\u001b[23;20H\u001b[K\u001b[24;5H\u001b[4m    \u001b[m\u001b[1m\u001b[4m\u001b[96mramMebibytes\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95m8192\u001b[m\u001b[4m                                                                                      \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m3\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m7/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.007235,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.02543,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H    \u001b[1m\u001b[96mramMebibytes\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m8192\u001b[m\u001b[19;27H\u001b[K\u001b[20;5H\u001b[4m    \u001b[m\u001b[1m\u001b[4m\u001b[96mstorage\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                                \u001b[m\u001b[23;1H\u001b[93m141 \u001b[m      \u001b[1m\u001b[96mname\u001b[m\u001b[38;5;224m:\u001b[m /dev/sda\r\n\u001b[93m142 \u001b[m      \u001b[1m\u001b[96mrotational\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95mtrue\u001b[m\r\n\u001b[93m143 \u001b[m      \u001b[1m\u001b[96mserialNumber\u001b[m\u001b[38;5;224m:\u001b[m drive-scsi0-0-0-0\r\n\u001b[93m144 \u001b[m      \u001b[1m\u001b[96msizeBytes\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m53687091200\u001b[m\r\n\u001b[93m145 \u001b[m      \u001b[1m\u001b[96mvendor\u001b[m\u001b[38;5;224m:\u001b[m QEMU\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m4\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m8/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      3.551844,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.040794,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H    \u001b[1m\u001b[96mstorage\u001b[m\u001b[38;5;224m:\u001b[m\u001b[20;17H\u001b[K\u001b[21;5H\u001b[4m    \u001b[m\u001b[4m\u001b[93m- \u001b[m\u001b[1m\u001b[4m\u001b[96mhctl\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \"6:0:0:0\"                                                                                       \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m9/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.466223,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.039691,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H    \u001b[93m- \u001b[m\u001b[1m\u001b[96mhctl\u001b[m\u001b[38;5;224m:\u001b[m \"6:0:0:0\"\u001b[21;26H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mmodel\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m QEMU HARDDISK                                                                                  \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m5\u001b[m\u001b[6C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m40/\u001b[22;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.023367,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[1m\u001b[96mmodel\u001b[m\u001b[38;5;224m:\u001b[m QEMU HARDDISK\u001b[22;31H\u001b[K\u001b[23;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mname\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m /dev/sda                                                                                        \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m1/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.002674,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.022907,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H      \u001b[1m\u001b[96mname\u001b[m\u001b[38;5;224m:\u001b[m /dev/sda\u001b[23;25H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mrotational\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95mtrue\u001b[m\u001b[4m                                                                                      \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m6\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m2/\u001b[24;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.02195,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[1m\u001b[96mrotational\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95mtrue\u001b[m\u001b[19;27H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mserialNumber\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m drive-scsi0-0-0-0                                                                       \u001b[m\u001b[23;1H\u001b[93m146 \u001b[m    \u001b[1m\u001b[96msystemVendor\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m147 \u001b[m      \u001b[1m\u001b[96mmanufacturer\u001b[m\u001b[38;5;224m:\u001b[m Red Hat\r\n\u001b[93m148 \u001b[m      \u001b[1m\u001b[96mproductName\u001b[m\u001b[38;5;224m:\u001b[m KVM\r\n\u001b[93m149 \u001b[m      \u001b[1m\u001b[96mserialNumber\u001b[m\u001b[38;5;224m:\u001b[m \"\"\r\n\u001b[93m150 \u001b[m  \u001b[1m\u001b[96mhardwareProfile\u001b[m\u001b[38;5;224m:\u001b[m unknown\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m7\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m3/\u001b[20;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.021897,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[1m\u001b[96mserialNumber\u001b[m\u001b[38;5;224m:\u001b[m drive-scsi0-0-0-0\u001b[20;42H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96msizeBytes\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95m53687091200\u001b[m\u001b[4m                                                                                \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m4/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.005114,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.028737,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[1m\u001b[96msizeBytes\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95m53687091200\u001b[m\u001b[21;33H\u001b[K\u001b[22;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mvendor\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m QEMU                                                                                          \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m8\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m5/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.004825,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.021743,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H      \u001b[1m\u001b[96mvendor\u001b[m\u001b[38;5;224m:\u001b[m QEMU\u001b[22;23H\u001b[K\u001b[23;5H\u001b[4m    \u001b[m\u001b[1m\u001b[4m\u001b[96msystemVendor\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                           \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m9\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m6/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.004848,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.021821,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H    \u001b[1m\u001b[96msystemVendor\u001b[m\u001b[38;5;224m:\u001b[m\u001b[23;22H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mmanufacturer\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m Red Hat                                                                                 \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m7/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.543493,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.023253,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H      \u001b[1m\u001b[96mmanufacturer\u001b[m\u001b[38;5;224m:\u001b[m Red Hat\u001b[19;32H\u001b[K\u001b[20;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mproductName\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m KVM                                                                                      \u001b[m\u001b[23;1H\u001b[93m151 \u001b[m  \u001b[1m\u001b[96mlastUpdated\u001b[m\u001b[38;5;224m:\u001b[m \"2019-11-13T21:54:42Z\"\r\n\u001b[93m152 \u001b[m  \u001b[1m\u001b[96moperationalStatus\u001b[m\u001b[38;5;224m:\u001b[m OK\r\n\u001b[93m153 \u001b[m  \u001b[1m\u001b[96mpoweredOn\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95mfalse\u001b[m\r\n\u001b[93m154 \u001b[m  \u001b[1m\u001b[96mprovisioning\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m155 \u001b[m    \u001b[1m\u001b[96mID\u001b[m\u001b[38;5;224m:\u001b[m 1bc04dd2-8e2f-4876-9016-3849a2f246fb\u001b[28;90H\u001b[38;5;230m\u001b[48;5;245m90\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m8/\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.211576,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.01876,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H      \u001b[1m\u001b[96mproductName\u001b[m\u001b[38;5;224m:\u001b[m KVM\u001b[20;27H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mserialNumber\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \"\"                                                                                      \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m9/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.460245,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.019882,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[1m\u001b[96mserialNumber\u001b[m\u001b[38;5;224m:\u001b[m \"\"\u001b[21;27H\u001b[K\u001b[22;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mhardwareProfile\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m unknown                                                                                  \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m1\u001b[m\u001b[6C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m50/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.47348,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.049233,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H  \u001b[1m\u001b[96mhardwareProfile\u001b[m\u001b[38;5;224m:\u001b[m unknown\u001b[22;31H\u001b[K\u001b[23;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mlastUpdated\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \"2019-11-13T21:54:42Z\"                                                                       \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m2\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m1/\u001b[23;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.023744,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H  \u001b[1m\u001b[96mlastUpdated\u001b[m\u001b[38;5;224m:\u001b[m \"2019-11-13T21:54:42Z\"\u001b[23;42H\u001b[K\u001b[24;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96moperationalStatus\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m OK                                                                                     \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m2/\u001b[24;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.019817,
+      "\u001b[29;102H  \u001b[20;5H\u001b[1;27r\u001b[1;1H\u001b[5M\u001b[1;29r\u001b[19;5H  \u001b[1m\u001b[96moperationalStatus\u001b[m\u001b[38;5;224m:\u001b[m OK\u001b[19;28H\u001b[K\u001b[20;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mpoweredOn\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[95mfalse\u001b[m\u001b[4m                                                                                          \u001b[m\u001b[23;1H\u001b[93m156 \u001b[m    \u001b[1m\u001b[96mimage\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m157 \u001b[m      \u001b[1m\u001b[96mchecksum\u001b[m\u001b[38;5;224m:\u001b[m \"\"\r\n\u001b[93m158 \u001b[m      \u001b[1m\u001b[96murl\u001b[m\u001b[38;5;224m:\u001b[m \"\"\r\n\u001b[93m159 \u001b[m    \u001b[1m\u001b[96mstate\u001b[m\u001b[38;5;224m:\u001b[m ready\r\n\u001b[93m160 \u001b[m  \u001b[1m\u001b[96mtriedCredentials\u001b[m\u001b[38;5;224m:\u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m3\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m3/\u001b[20;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[20;5H"
+    ],
+    [
+      0.019644,
+      "\u001b[29;102H  \u001b[21;5H\u001b[20;5H  \u001b[1m\u001b[96mpoweredOn\u001b[m\u001b[38;5;224m:\u001b[m \u001b[95mfalse\u001b[m\u001b[20;23H\u001b[K\u001b[21;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mprovisioning\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                             \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m4/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.007246,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.019686,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H  \u001b[1m\u001b[96mprovisioning\u001b[m\u001b[38;5;224m:\u001b[m\u001b[21;20H\u001b[K\u001b[22;5H\u001b[4m    \u001b[m\u001b[1m\u001b[4m\u001b[96mID\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m 1bc04dd2-8e2f-4876-9016-3849a2f246fb                                                                \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m4\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m5/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.016474,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.027882,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H    \u001b[1m\u001b[96mID\u001b[m\u001b[38;5;224m:\u001b[m 1bc04dd2-8e2f-4876-9016-3849a2f246fb\u001b[22;49H\u001b[K\u001b[23;5H\u001b[4m    \u001b[m\u001b[1m\u001b[4m\u001b[96mimage\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                                  \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m5\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m6/\u001b[23;5H\u001b[?12l\u001b[?25h\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[23;5H"
+    ],
+    [
+      0.019785,
+      "\u001b[29;102H  \u001b[24;5H\u001b[23;5H    \u001b[1m\u001b[96mimage\u001b[m\u001b[38;5;224m:\u001b[m\u001b[23;15H\u001b[K\u001b[24;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96mchecksum\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \"\"                                                                                          \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m7/\u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.004763,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[24;5H"
+    ],
+    [
+      0.019799,
+      "\u001b[29;102H  \u001b[21;5H\u001b[1;27r\u001b[1;1H\u001b[4M\u001b[1;29r\u001b[20;5H      \u001b[1m\u001b[96mchecksum\u001b[m\u001b[38;5;224m:\u001b[m \"\"\u001b[20;23H\u001b[K\u001b[21;5H\u001b[4m      \u001b[m\u001b[1m\u001b[4m\u001b[96murl\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m \"\"                                                                                               \u001b[m\u001b[24;1H\u001b[93m161 \u001b[m    \u001b[1m\u001b[96mcredentials\u001b[m\u001b[38;5;224m:\u001b[m\r\n\u001b[93m162 \u001b[m      \u001b[1m\u001b[96mname\u001b[m\u001b[38;5;224m:\u001b[m host-1-bmc-secret\r\n\u001b[93m163 \u001b[m      \u001b[1m\u001b[96mnamespace\u001b[m\u001b[38;5;224m:\u001b[m metal3\r\n\u001b[93m164 \u001b[m    \u001b[1m\u001b[96mcredentialsVersion\u001b[m\u001b[38;5;224m:\u001b[m \"2654\"\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m6\u001b[m\u001b[7C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m8/\u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.011202,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[21;5H"
+    ],
+    [
+      0.027668,
+      "\u001b[29;102H  \u001b[22;5H\u001b[21;5H      \u001b[1m\u001b[96murl\u001b[m\u001b[38;5;224m:\u001b[m \"\"\u001b[21;18H\u001b[K\u001b[22;5H\u001b[4m    \u001b[m\u001b[1m\u001b[4m\u001b[96mstate\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m ready                                                                                            \u001b[m\u001b[28;99H\u001b[1m\u001b[38;5;230m\u001b[48;5;245m9/\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.002028,
+      "\u001b[?25l\u001b[m\u001b[29;102Hgj\u001b[22;5H"
+    ],
+    [
+      0.028225,
+      "\u001b[29;102H  \u001b[23;5H\u001b[22;5H    \u001b[1m\u001b[96mstate\u001b[m\u001b[38;5;224m:\u001b[m ready\u001b[22;21H\u001b[K\u001b[23;5H\u001b[4m  \u001b[m\u001b[1m\u001b[4m\u001b[96mtriedCredentials\u001b[m\u001b[4m\u001b[38;5;224m:\u001b[m\u001b[4m                                                                                         \u001b[m\u001b[28;91H\u001b[38;5;230m\u001b[48;5;245m7\u001b[m\u001b[6C\u001b[1m\u001b[38;5;230m\u001b[48;5;245m60/\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      3.416082,
+      "\u001b[?25l\u001b[m\u001b[29;102H:\u001b[23;5H\u001b[29;102H\u001b[K\u001b[29;1H:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.309379,
+      "q\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.674149,
+      "\r"
+    ],
+    [
+      0.003017,
+      "\u001b[?25l\u001b[?1l\u001b>\u001b[?12l\u001b[?25h\u001b[?1049l\r\r\n"
+    ],
+    [
+      0.03407,
+      "\u001b]0;rbryant@metal3:~/metal3-dev-env\u0007"
+    ],
+    [
+      0.001827,
+      "\u001b[0;38;5;220;48;5;166m  metal3 \u001b[0;38;5;166;48;5;31;22m \u001b[0;38;5;231;48;5;31;1mrbryant \u001b[0;38;5;31;48;5;236;22m \u001b[0;38;5;250;48;5;236m master \u001b[0;38;5;236;48;5;240;22m \u001b[0;38;5;250;48;5;240m~ \u001b[0;38;5;245;48;5;240;22m \u001b[0;38;5;252;48;5;240;1mmetal3-dev-env \u001b[0;38;5;240;49;22m \u001b[0m"
+    ]
+  ]
+}
