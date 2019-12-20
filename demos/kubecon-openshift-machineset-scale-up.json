@@ -4,7 +4,7 @@
   "height": 45,
   "duration": 565.748748,
   "command": null,
-  "title": "OpenShift machine API driven bare metal worker deployment",
+  "title": "OpenShift machine API driven bare metal worker deployment - KubeCon, Nov 2019",
   "env": {
     "TERM": "xterm-256color",
     "SHELL": "/bin/bash"
