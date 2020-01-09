@@ -40,8 +40,8 @@
 # The first network defined with an address will be used for vbmc access.
 - name: set vbmc address if there is a (nat) network defined with an address
   set_fact:
-    vbmc_address: "{{ networks|selectattr('address', 'defined')|map(attribute='address')|list|first }}"
-  when: networks|selectattr('address', 'defined')|map(attribute='name')|list|length > 0
+    vbmc_address: "{{ networks|selectattr('address_v4', 'defined')|map(attribute='address_v4')|list|first }}"
+  when: networks|selectattr('address_v4', 'defined')|map(attribute='name')|list|length > 0
 
 # The connection uri is slightly different when using qemu:///system
 # and requires the root user.

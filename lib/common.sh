@@ -60,7 +60,8 @@ else
   export POD_NAME=""
 fi
 
-export EXTERNAL_SUBNET=${EXTERNAL_SUBNET:-"192.168.111.0/24"}
+export EXTERNAL_SUBNET_V4=${EXTERNAL_SUBNET:-"192.168.111.0/24"}
+export EXTERNAL_SUBNET_V6=${EXTERNAL_SUBNET:-"fd55::/64"}
 
 export SSH_KEY=${SSH_KEY:-"${HOME}/.ssh/id_rsa"}
 export SSH_PUB_KEY=${SSH_PUB_KEY:-"${SSH_KEY}.pub"}

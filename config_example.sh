@@ -6,7 +6,8 @@
 #
 # Default of 192.168.111.0/24 set in lib/common.sh
 #
-#export EXTERNAL_SUBNET="192.168.111.0/24"
+#export EXTERNAL_SUBNET_V4="192.168.111.0/24"
+#export EXTERNAL_SUBNET_V6="fd55::/64"
 
 #
 # This SSH key will be automatically injected into the provisioned host
